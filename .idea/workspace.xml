@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:upstream" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c02a5b48-598a-4a5d-98d6-07718f444b2f" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/languages/lang_fr.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/languages/lang_sp.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/8-bit happiness.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/blank.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/cruelty.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/distortion.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/down.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/end.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/far.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/final.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/how feeling.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/infinite.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/new era.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/oxygen.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/push.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/race.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/reason.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/rockblock.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/secret7th.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/secret8th.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/shining terminal.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/storm.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/sugar fairy.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/truth.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/waterfall.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/BGM/way.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/b2b_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/b2b_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/b2b_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/b3b_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/b3b_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/bye_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/bye_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/clear_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/clear_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/double_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/double_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/double_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/double_4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/double_5.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/doubt_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/doubt_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/egg_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/egg_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/half_clear_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/half_clear_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/happy_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/happy_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/happy_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/happy_4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/ispin_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/ispin_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/ispin_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/jspin_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/jspin_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/jspin_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/jspin_4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/lose_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/lose_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/lose_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/lspin_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/lspin_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/mini_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/mini_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/mini_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/nya_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/nya_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/nya_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/nya_4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/nya_doubt_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/nya_doubt_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/nya_happy_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/nya_happy_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/nya_happy_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/nya_happy_4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/nya_sad_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/ospin_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/ospin_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/ospin_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/perfect_clear_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/perfect_clear_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/sad.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/single_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/single_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/single_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/single_4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/single_5.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/single_6.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/single_7.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/sspin_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/sspin_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/sspin_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/sspin_4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/sspin_5.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/sspin_6.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/techrash_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/techrash_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/techrash_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/techrash_4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/test_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/test_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/test_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/test_4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/triple_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/triple_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/triple_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/triple_4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/triple_5.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/triple_6.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/triple_7.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/tspin_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/tspin_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/tspin_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/tspin_4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/tspin_5.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/tspin_6.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/welcome_voc.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/win_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/win_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/win_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/win_4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/win_5.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/win_6.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/win_7.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/win_8.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/zspin_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/zspin_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/miya/zspin_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/b2b_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/b2b_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/b3b_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/b3b_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/double.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/half_clear_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/ispin_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/ispin_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/ispin_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/ispin_4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/jspin_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/jspin_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/jspin_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/jspin_4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/lose_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/lose_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/lose_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/lspin_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/lspin_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/lspin_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/mini_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/mini_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/mini_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/ospin_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/ospin_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/ospin_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/perfect_clear.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/single_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/single_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/sspin_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/sspin_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/sspin_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/techrash_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/techrash_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/test_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/test_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/triple.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/triple_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/tspin_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/tspin_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/tspin_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/welcome_voc_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/welcome_voc_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/welcome_voc_4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/win_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/win_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/win_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/zspin_1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/zspin_2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/VOICE/naki/zspin_3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/image/skin/crack(earety).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zframework/background.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zframework/image.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zframework/light/init.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zframework/light/lightRender.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zframework/light/shadowMap.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zframework/screen.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zframework/vibrate.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/aura.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/badapple.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/badapple.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/bg1.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/bg2.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/fan.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/flink.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/glow.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/grey.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/lightning.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/lightning2.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/matrix.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/rainbow.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/rainbow2.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/rgb.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/space.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/tunnel.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/welcome.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/backgrounds/wing.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/player/draw.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/player/gameEnv0.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/player/init.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/player/player.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/player/prepareSequence.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/player/update.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/account.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/calculator.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/customGame.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/custom_advance.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/custom_field.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/custom_mission.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/custom_sequence.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/dict.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/help.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/history.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/intro.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/lang.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/load.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/login.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/main.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/mg_15p.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/mg_AtoZ.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/mg_UTTT.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/mg_pong.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/mg_schulteG.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/minigame.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/mode.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/music.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/pause.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/play.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/quit.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/savedata.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/setting_control.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/setting_game.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/setting_key.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/setting_skin.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/setting_sound.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/setting_touch.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/setting_touchSwitch.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/setting_trackSetting.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/setting_video.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/sound.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/staff.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/scenes/stat.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/shaders/alpha.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/shaders/aura.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/shaders/grad1.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/shaders/grad2.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/shaders/rgb1.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/shaders/rgb2.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parts/shaders/warning.glsl" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="NewLua" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1jdSQkC0MHyHUHAqMiTWBHr2ovz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\WOSHIZHAZHA120\Other\Project\Techmino" />
+      <recent name="C:\Users\WOSHIZHAZHA120\Other\Project\Techmino\resources\fonts" />
+      <recent name="C:\Users\WOSHIZHAZHA120\Other\Project\Techmino\library" />
+      <recent name="C:\Users\WOSHIZHAZHA120\Other\Project\Techmino\resources" />
+      <recent name="C:\Users\WOSHIZHAZHA120\Other\Project\Techmino\src" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="lovec ." />
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c02a5b48-598a-4a5d-98d6-07718f444b2f" name="默认的" comment="" />
+      <created>1604132485290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604132485290</updated>
+      <workItem from="1604132492737" duration="145000" />
+      <workItem from="1604132693467" duration="1083000" />
+      <workItem from="1604135369419" duration="562000" />
+      <workItem from="1604575488570" duration="1324000" />
+      <workItem from="1604758881922" duration="4000" />
+      <workItem from="1605524664318" duration="5730000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="611" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605525046629">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="611" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.900@0.0.1600.900" timestamp="1605525046629" />
+    <state x="548" y="282" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605525447980">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="548" y="282" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.900@0.0.1600.900" timestamp="1605525447980" />
+    <state width="1553" height="217" key="GridCell.Tab.0.bottom" timestamp="1605530454564">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1553" height="217" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1605530454564" />
+    <state width="1553" height="217" key="GridCell.Tab.0.center" timestamp="1605530454563">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1553" height="217" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1605530454563" />
+    <state width="1553" height="217" key="GridCell.Tab.0.left" timestamp="1605530454562">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1553" height="217" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1605530454562" />
+    <state width="1553" height="217" key="GridCell.Tab.0.right" timestamp="1605530454563">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1553" height="217" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1605530454563" />
+    <state x="640" y="368" key="NewPhpFileDialog" timestamp="1605529119853">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="640" y="368" key="NewPhpFileDialog/0.0.1600.900@0.0.1600.900" timestamp="1605529119853" />
+    <state x="301" y="93" key="SettingsEditor" timestamp="1605528753324">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="301" y="93" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1605528753324" />
+    <state x="624" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605524881234">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="624" y="359" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.900@0.0.1600.900" timestamp="1605524881234" />
+    <state x="456" y="205" width="672" height="677" key="run.anything.popup" timestamp="1605529721594">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="456" y="205" width="672" height="677" key="run.anything.popup/0.0.1600.900@0.0.1600.900" timestamp="1605529721594" />
+    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1605530117269">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1600.900@0.0.1600.900" timestamp="1605530117269" />
+  </component>
+</project>
