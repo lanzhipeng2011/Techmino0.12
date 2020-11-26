@@ -247,6 +247,7 @@ return{
 			dropFX="Effets de chute",
 			moveFX="Effets de déplacement",
 			clearFX="Effets de nettoyage",
+			-- splashFX="Splash FX Level",
 			shakeFX="Tremblements de l'écran",
 			atkFX="Effets d'attaque",
 			frame="Montrer les FPS",
@@ -552,6 +553,7 @@ return{
 			mg_pong="Pong",
 			-- mg_AtoZ="A to Z",
 			-- mg_UTTT="Ultimate Tic-Tac-Toe",
+			-- mg_cubefield="Cubefield",
 		},
 		mg_15p={
 			reset="Réinitialiser",

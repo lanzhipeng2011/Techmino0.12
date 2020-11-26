@@ -1,9 +1,15 @@
 local gc=love.graphics
 local setColor,setWidth=gc.setColor,gc.setLineWidth
 local max,min=math.max,math.min
+local rnd=math.random
 local rem=table.remove
 
 local fx={}
+
+local function normUpdate(S,dt)
+	S.t=S.t+dt*S.rate
+	return S.t>1
+end
 
 local FXupdate={}
 function FXupdate.badge(S,dt)
@@ -19,21 +25,21 @@ function FXupdate.badge(S,dt)
 	end
 	return S.t>=1
 end
-function FXupdate.attack(S,dt)
+FXupdate.attack=normUpdate
+FXupdate.ripple=normUpdate
+FXupdate.rectRipple=normUpdate
+FXupdate.shade=normUpdate
+function FXupdate.cell(S,dt)
+	if S.vx then
+		S.x=S.x+S.vx
+		S.y=S.y+S.vy
+		if S.ax then
+			S.vx=S.vx+S.ax
+			S.vy=S.vy+S.ay
+		end
+	end
 	S.t=S.t+dt*S.rate
 	return S.t>1
-end
-function FXupdate.ripple(S,dt)
-	S.t=S.t+dt*S.rate
-	return S.t>=1
-end
-function FXupdate.rectRipple(S,dt)
-	S.t=S.t+dt*S.rate
-	return S.t>=1
-end
-function FXupdate.shade(S,dt)
-	S.t=S.t+dt*S.rate
-	return S.t>=1
 end
 
 local FXdraw={}
@@ -78,6 +84,10 @@ function FXdraw.shade(S)
 	setColor(S.r,S.g,S.b,1-S.t)
 	gc.rectangle("fill",S.x,S.y,S.w,S.h,2)
 end
+function FXdraw.cell(S,dt)
+	setColor(1,1,1,1-S.t)
+	gc.draw(S.image,S.x,S.y,nil,S.size)
+end
 
 local SYSFX={}
 function SYSFX.update(dt)
@@ -115,32 +125,45 @@ function SYSFX.newAttack(rate,x1,y1,x2,y2,wid,r,g,b,a)
 		r=r,g=g,b=b,a=a,
 	}
 end
-function SYSFX.newRipple(duration,x,y,r)
+function SYSFX.newRipple(rate,x,y,r)
 	fx[#fx+1]={
 		update=FXupdate.ripple,
 		draw=FXdraw.ripple,
 		t=0,
-		rate=1/duration,
+		rate=rate,
 		x=x,y=y,r=r,
 	}
 end
-function SYSFX.newRectRipple(duration,x,y,w,h)
+function SYSFX.newRectRipple(rate,x,y,w,h)
 	fx[#fx+1]={
 		update=FXupdate.rectRipple,
 		draw=FXdraw.rectRipple,
 		t=0,
-		rate=1/duration,
+		rate=rate,
 		x=x,y=y,w=w,h=h,
 	}
 end
-function SYSFX.newShade(duration,r,g,b,x,y,w,h)
+function SYSFX.newShade(rate,r,g,b,x,y,w,h)
 	fx[#fx+1]={
 		update=FXupdate.shade,
 		draw=FXdraw.shade,
 		t=0,
-		rate=1/duration,
+		rate=rate,
 		r=r,g=g,b=b,
 		x=x,y=y,w=w,h=h,
+	}
+end
+function SYSFX.newCell(rate,image,size,x,y,vx,vy,ax,ay)
+	fx[#fx+1]={
+		update=FXupdate.cell,
+		draw=FXdraw.cell,
+		t=0,
+		rate=rate*(.9+rnd()*.2),
+		image=image,
+		size=size,
+		x=x,y=y,
+		vx=vx,vy=vy,
+		ax=ax,ay=ay,
 	}
 end
 return SYSFX

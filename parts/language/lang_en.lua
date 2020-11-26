@@ -242,6 +242,7 @@ return{
 			dropFX="Drop FX Level",
 			moveFX="Move FX Level",
 			clearFX="Clear FX Level",
+			splashFX="Splash FX Level",
 			shakeFX="Field Sway Level",
 			atkFX="Atk. FX Level",
 			frame="Render Frame Rate",
@@ -554,6 +555,7 @@ return{
 			mg_pong="Pong",
 			mg_AtoZ="A to Z",
 			mg_UTTT="Ultimate Tic-Tac-Toe",
+			mg_cubefield="Cubefield",
 		},
 		mg_15p={
 			reset="Shuffle",

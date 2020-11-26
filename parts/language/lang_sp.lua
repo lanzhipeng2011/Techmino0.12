@@ -248,6 +248,7 @@ return{
 			dropFX="FX Vis. de Caída",
 			moveFX="FX Vis. de Movim.",
 			clearFX="FX Vis. de Limpieza",
+			-- splashFX="Splash FX Level",
 			shakeFX="Bamboleo del Tablero",
 			atkFX="FX Vis. de Ataque",
 			frame="Ratio de FPSs",
@@ -556,6 +557,7 @@ return{
 			mg_pong="Pong",
 			-- mg_AtoZ="A to Z",
 			-- mg_UTTT="Ultimate Tic-Tac-Toe",
+			-- mg_cubefield="Cubefield",
 		},
 		mg_15p={
 			reset="Mezclar",

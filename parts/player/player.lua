@@ -6,6 +6,7 @@ local Player={}--Player class
 
 local int,ceil,rnd=math.floor,math.ceil,math.random
 local max,min=math.max,math.min
+local sin,cos=math.sin,math.cos
 local ins,rem=table.insert,table.remove
 
 local kickList=require"parts/kickList"
@@ -78,6 +79,23 @@ function Player.createMoveFX(P,dir)
 				ins(P.moveFX,{C,x+j,y+i,0,T})
 			end
 		end end
+	end
+end
+function Player.createSplashFX(P,h)
+	local L=P.field[h]
+	local y=P.fieldY+P.size*(P.fieldOff.y+P.fieldBeneath+P.fieldUp+585)
+	for x=1,10 do
+		local c=L[x]
+		if c>0 then
+			local v,a=1+rnd(),rnd()*6.28
+			SYSFX.newCell(
+				6-P.gameEnv.splashFX,
+				SKIN.curText[c],
+				1,
+				P.fieldX+30*x-15,y-30*h,
+				v*cos(a),v*sin(a)
+			)
+		end
 	end
 end
 function Player.createClearingFX(P,y,spd)
@@ -849,7 +867,11 @@ do--Player.drop(P)--Place piece
 		if cc>0 and ENV.clearFX then
 			local t=7-ENV.clearFX*1
 			for i=1,cc do
-				P:createClearingFX(P.clearedRow[i],t)
+				local y=P.clearedRow[i]
+				P:createClearingFX(y,t)
+				if ENV.splashFX then
+					P:createSplashFX(y)
+				end
 			end
 		end
 
@@ -1471,9 +1493,9 @@ function Player.lose(P,force)
 		for i=1,h do
 			P:createClearingFX(i,1.5)
 		end
-		SYSFX.newShade(.7,1,1,1,P.fieldX,P.fieldY,300*P.size,610*P.size)
-		SYSFX.newRectRipple(.5,P.fieldX,P.fieldY,300*P.size,610*P.size)
-		SYSFX.newRipple(.5,P.x+(475+25*(P.life<3 and P.life or 0)+12)*P.size,P.y+(665+12)*P.size,20)
+		SYSFX.newShade(1.4,1,1,1,P.fieldX,P.fieldY,300*P.size,610*P.size)
+		SYSFX.newRectRipple(2,P.fieldX,P.fieldY,300*P.size,610*P.size)
+		SYSFX.newRipple(2,P.x+(475+25*(P.life<3 and P.life or 0)+12)*P.size,P.y+(665+12)*P.size,20)
 		--300+25*i,595
 		SFX.play("clear_3")
 		SFX.play("emit")
