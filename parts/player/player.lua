@@ -83,17 +83,18 @@ function Player.createMoveFX(P,dir)
 end
 function Player.createSplashFX(P,h)
 	local L=P.field[h]
-	local y=P.fieldY+P.size*(P.fieldOff.y+P.fieldBeneath+P.fieldUp+585)
+	local size=P.size
+	local y=P.fieldY+size*(P.fieldOff.y+P.fieldBeneath+P.fieldUp+615)
 	for x=1,10 do
 		local c=L[x]
 		if c>0 then
-			local v,a=1+rnd(),rnd()*6.28
 			SYSFX.newCell(
-				6-P.gameEnv.splashFX,
+				2.5-P.gameEnv.splashFX*.4,
 				SKIN.curText[c],
-				1,
-				P.fieldX+30*x-15,y-30*h,
-				v*cos(a),v*sin(a)
+				size,
+				P.fieldX+(30*x-15)*size,y-30*h*size,
+				rnd()*5-2.5,rnd()*-1,
+				0,.6
 			)
 		end
 	end
