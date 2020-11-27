@@ -1,85 +1,46 @@
 local fs=love.filesystem
-
-local files={
-	data=	fs.newFile("data.dat"),
-	setting=fs.newFile("settings.dat"),
-	network=fs.newFile("network.dat"),
-	VK=		fs.newFile("virtualkey.dat"),
-	keyMap=	fs.newFile("key.dat"),
-	unlock=	fs.newFile("unlock.dat"),
-}
-
 local FILE={}
-function FILE.loadRecord(N)
-	local F=fs.newFile(N..".dat")
+function FILE.load(name)
+	name=name..".dat"
+	local F=fs.newFile(name)
 	if F:open("r")then
-		local s=loadstring(F:read())
+		local s=F:read()
 		F:close()
-		if s then
-			setfenv(s,{})
-			return s()
+		if s:sub(1,6)=="return"then
+			s=loadstring(s)
+			if s then
+				setfenv(s,{})
+				return s()
+			end
 		else
-			return{}
+			local _,res=json.decode(s)
+			if _ then
+				return res
+			else
+				LOG.print(name.." "..text.loadError..(mes or"unknown error"),COLOR.red)
+			end
 		end
 	end
 end
-function FILE.saveRecord(N,L)
-	local F=fs.newFile(N..".dat")
-	F:open("w")
-	local _,mes=F:write(dumpTable(L))
-	F:flush()F:close()
-	if not _ then
-		LOG.print(text.recSavingError..(mes or"unknown error"),COLOR.red)
+function FILE.save(data,name,mode,luacode)
+	if not mode then mode="m"end
+	name=name..".dat"
+	local _,mes
+	if not luacode then
+		_,data=json.encode(data)
+		if not _ then
+			LOG.print(name.." "..text.saveError..(mes or"json error"),"error")
+			return
+		end
+	else
+		data=dumpTable(data)
 	end
-end
-function FILE.delRecord(N)
-	fs.remove(N..".dat")
-end
 
-function FILE.loadUnlock()
-	local F=files.unlock
-	if F:open("r")then
-		local s=F:read()
-		if s:sub(1,6)~="return"then s="return{"..s.."}"end
-		s=loadstring(s)
-		F:close()
-		if s then
-			setfenv(s,{})
-			RANKS=s()
-		end
-	end
-end
-function FILE.saveUnlock()
-	local F=files.unlock
+	local F=fs.newFile(name)
 	F:open("w")
-	local _,mes=F:write(dumpTable(RANKS))
+	_,mes=F:write(data)
 	F:flush()F:close()
-	if not _ then
-		LOG.print(text.unlockSavingError..(mes or"unknown error"),COLOR.red)
-	end
-end
-
-function FILE.loadData()
-	local F=files.data
-	if F:open("r")then
-		local s=F:read()
-		if s:sub(1,6)~="return"then
-			s="return{"..s:gsub("\n",",").."}"
-		end
-		s=loadstring(s)
-		F:close()
-		if s then
-			setfenv(s,{})
-			local S=s()
-			addToTable(S,STAT)
-		end
-	end
-end
-function FILE.saveData()
-	local F=files.data
-	F:open("w")
-	local _,mes=F:write(dumpTable(STAT))
-	F:flush()F:close()
+<<<<<<< HEAD
 	if not _ then
 		LOG.print(text.statSavingError..(mes or"unknown error"),COLOR.red)
 	end
@@ -140,37 +101,14 @@ function FILE.loadKeyMap()
 		if s then
 			setfenv(s,{})
 			addToTable(s(),keyMap)
+=======
+	if _ then
+		if mode:find("m")then
+			LOG.print(text.saveDone,COLOR.green)
+>>>>>>> 4494dab7d33ea09fa6df435402921522a7895272
 		end
-	end
-end
-function FILE.saveKeyMap()
-	local F=files.keyMap
-	F:open("w")
-	local _,mes=F:write(dumpTable(keyMap))
-	F:flush()F:close()
-	if _ then LOG.print(text.keyMapSaved,COLOR.green)
-	else LOG.print(text.keyMapSavingError..(mes or"unknown error"),COLOR.red)
-	end
-end
-
-function FILE.loadVK()
-	local F=files.VK
-	if F:open("r")then
-		local s=loadstring(F:read())
-		F:close()
-		if s then
-			setfenv(s,{})
-			addToTable(s(),VK_org)
-		end
-	end
-end
-function FILE.saveVK()
-	local F=files.VK
-	F:open("w")
-	local _,mes=F:write(dumpTable(VK_org))
-	F:flush()F:close()
-	if _ then LOG.print(text.VKSaved,COLOR.green)
-	else LOG.print(text.VKSavingError..(mes or"unknown error"),COLOR.red)
+	else
+		LOG.print(text.saveError..(mes or"unknown error"),"error")
 	end
 end
 return FILE
