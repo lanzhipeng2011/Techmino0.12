@@ -282,6 +282,16 @@ SETTING={
 	VKAlpha=.3,
 }
 
+ACCOUNT={
+	email=nil,
+	auth_token=nil,
+	access_token=nil,
+
+	username=nil,
+	motto=nil,
+	avatar=nil,
+}
+
 STAT={
 	version=VERSION_NAME,
 	run=0,game=0,time=0,
@@ -298,6 +308,14 @@ for i=1,25 do
 	STAT.clear[i]={0,0,0,0,0,0}
 	STAT.spin[i]={0,0,0,0,0,0,0}
 end
+
+ACCOUNT={
+	username=nil,
+	motto=nil,
+	avatar=nil,
+	auth_token=nil,
+	access_token=nil
+}
 
 keyMap={
 	{"left","right","x","z","c","up","down","space","tab","r"},{},
